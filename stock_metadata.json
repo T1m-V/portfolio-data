@@ -89,6 +89,24 @@
     "group": "Funds/ETFs",
     "provider": "Northern Trust"
   },
+  "NL0013654742": {
+    "ticker": "0P0001HZZS.F",
+    "name": "NT World Screened Equity Index DIS",
+    "currency": "EUR",
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
+    "region": "DEVELOPED",
+    "group": "Funds/ETFs",
+    "provider": "Northern Trust"
+  },
+  "NL0014040289": {
+    "ticker": "0P0001IP0L.F",
+    "name": "NT Emerging Markets Screened Equity Index G DIS",
+    "currency": "EUR",
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
+    "region": "EMERGING",
+    "group": "Funds/ETFs",
+    "provider": "Northern Trust"
+  },
   "NL0011354865": {
     "ticker": "ROCO.AS",
     "name": "Robeco QI Global Developed Conservative",
