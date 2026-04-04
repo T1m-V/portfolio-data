@@ -116,5 +116,91 @@
       "Llama"
     ],
     "group": "Liquidity Pools"
-  }
+  },
+  "SOL": {
+    "ticker": "SOL-USD",
+    "name": "Solana",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies"
+  },
+  "ADA": {
+    "ticker": "ADA-USD",
+    "name": "Cardano",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies",
+    "active": false
+  },
+  "BNB": {
+    "ticker": "BNB-USD",
+    "name": "BNB",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies"
+  },
+  "XLM": {
+    "ticker": "XLM-USD",
+    "name": "Stellar",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies",
+    "active": false
+  },
+  "POL": {
+    "ticker": "POL28321-USD",
+    "name": "Polygon (MATIC)",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies"
+  },
+  "DOT": {
+    "ticker": "DOT-USD",
+    "name": "Polkadot",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies",
+    "active": false
+  },
+  "ATOM": {
+    "ticker": "ATOM-USD",
+    "name": "Cosmos",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies",
+    "active": false
+  },
+  "AVAX": {
+    "ticker": "AVAX-USD",
+    "name": "Avalanche",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies"
+  },
+  "ETHW": {
+    "ticker": "ETHW-USD",
+    "name": "EthereumPoW",
+    "currency": "USD",
+    "waterfall": [
+      "Yahoo"
+    ],
+    "group": "Cryptocurrencies"
+  },
+  "active": false
 }
