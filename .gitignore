@@ -3,6 +3,7 @@
 
 # Private portfolio data and credentials
 config/chains.json
+# Obsolete credential files remain ignored solely to prevent accidental disclosure.
 config/getquin-token.txt
 transactions/
 crypto/
@@ -13,4 +14,3 @@ runtime/
 .pytest_cache/
 .ruff_cache/
 __pycache__/
-

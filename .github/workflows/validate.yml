@@ -1,0 +1,21 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  workspace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          version: "0.12.3"
+      - run: uv python install 3.14
+      - run: uv sync --frozen
+      - run: uv run python scripts/validate_workspace.py
+      - run: uv run portfolio-market --help
+      - run: uv run portfolio-crypto --help

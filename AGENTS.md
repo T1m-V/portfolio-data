@@ -98,5 +98,7 @@ read-only, repair only the exact uv environment after verifying its resolved tar
 - `git ls-files` contains only intended metadata, workflow/configuration, documentation, and public
   market data.
 - `uv sync --frozen` succeeds without local path dependencies.
+- `uv run python scripts/validate_workspace.py` rejects tracked private paths and local/editable
+  dependency sources.
 - Price files remain canonical and `latest_prices.csv` retains `date, isin, price`.
 - No loader command was run unintentionally.

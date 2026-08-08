@@ -14,9 +14,10 @@ uv run portfolio-crypto --data-dir . update
 ```
 
 The installed dashboard can also point at this directory. `portfolio.toml` declares the data
-contract version. Put `GETQUIN_TOKEN` in `.env`, or keep the ignored
-`config/getquin-token.txt` compatibility file created during migration.
+contract version. Put `GETQUIN_TOKEN` in `.env`; credential files are not supported.
+
+`scripts/validate_workspace.py` rejects tracked private-data paths and local dependency sources.
+Both CI and the scheduled price workflow run it before accepting generated changes.
 
 Virtual environments use uv's centralized cache under `%LOCALAPPDATA%\uv`, so OneDrive does not
 need to synchronize a `.venv` directory.
-
