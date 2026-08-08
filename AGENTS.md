@@ -67,6 +67,10 @@ published Git tags. When upgrading:
 
 Never move a published release tag. Use a new package/workspace version.
 
+This repository intentionally models an end-user environment. Never add local path or editable
+`[tool.uv.sources]` entries here, even on the developer machine. Editable integration belongs in
+the sibling dashboard checkout; the validator enforces this separation in `uv.lock`.
+
 ## Safe Commands
 
 ```powershell
