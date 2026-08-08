@@ -1,0 +1,16 @@
+.env
+.venv/
+
+# Private portfolio data and credentials
+config/chains.json
+config/getquin-token.txt
+transactions/
+crypto/
+real_estate/
+runtime/
+
+# Local tooling
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+
