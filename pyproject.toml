@@ -4,6 +4,8 @@ version = "0.2.0"
 description = "Versioned market data and private local state for the portfolio tools"
 requires-python = ">=3.14,<3.15"
 dependencies = [
+    # portfolio-market-data v0.2.0 uses the module-level screener removed in mstarpy 11.
+    "mstarpy>=8.0.3,<11",
     "portfolio-crypto-data @ git+https://github.com/T1m-V/portfolio-crypto-data.git@v0.2.0",
     "portfolio-market-data @ git+https://github.com/T1m-V/portfolio-market-data.git@v0.2.0",
 ]
