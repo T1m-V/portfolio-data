@@ -172,5 +172,14 @@
     "region": "EUROPE",
     "group": "Funds/ETFs",
     "provider": "Amundi"
+  },
+  "LU1654174025": {
+    "ticker": "0P0001BM7E.F",
+    "name": "Robeco QI European Active Equities F EUR",
+    "currency": "EUR",
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
+    "region": "EUROPE",
+    "group": "Funds/ETFs",
+    "provider": "Robeco"
   }
 }
