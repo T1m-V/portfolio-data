@@ -42,7 +42,7 @@
     "ticker": "0P0000WH5M.F",
     "name": "Robeco QI Emerging Conservative",
     "currency": "EUR",
-    "waterfall": ["Yahoo", "Evi", "FT", "Morningstar"],
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
     "region": "EMERGING",
     "group": "Funds/ETFs",
     "provider": "Robeco"
@@ -51,7 +51,7 @@
     "ticker": "0P0000ZE6W.F",
     "name": "Robeco QI Emerging Active",
     "currency": "EUR",
-    "waterfall": ["Yahoo", "Evi", "FT", "Morningstar"],
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
     "region": "EMERGING",
     "group": "Funds/ETFs",
     "provider": "Robeco"
@@ -123,7 +123,7 @@
     "ticker": "ROCO.AS",
     "name": "Robeco QI Global Developed Conservative",
     "currency": "EUR",
-    "waterfall": ["Yahoo", "Evi", "FT", "Morningstar"],
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
     "region": "DEVELOPED",
     "group": "Funds/ETFs",
     "provider": "Robeco"
@@ -132,7 +132,7 @@
     "ticker": "ROMF.AS",
     "name": "Robeco QI Global Multi-Factor",
     "currency": "EUR",
-    "waterfall": ["Yahoo", "Evi", "FT", "Morningstar"],
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
     "region": "DEVELOPED",
     "group": "Funds/ETFs",
     "provider": "Robeco"
@@ -159,7 +159,7 @@
     "ticker": "ROQI.AS",
     "name": "Robeco QI Global Dev Enhanced Idx",
     "currency": "EUR",
-    "waterfall": ["Yahoo", "Evi", "FT", "Morningstar"],
+    "waterfall": ["Yahoo", "FT", "Morningstar"],
     "region": "DEVELOPED",
     "group": "Funds/ETFs",
     "provider": "Robeco"

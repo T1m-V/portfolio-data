@@ -61,8 +61,9 @@ published Git tags. When upgrading:
 1. Release core first when needed.
 2. Release market and crypto against that core tag.
 3. Update all three Git tags here.
-4. Run `uv lock` and inspect `uv.lock` for Git URLs and immutable commit SHAs; no `file://` or local
-   path source may remain.
+4. Run `uv lock --no-sources` so dependency repositories cannot leak their development-only
+   editable overrides into this end-user lock. Inspect `uv.lock` for Git URLs and immutable commit
+   SHAs; no `file://` or local path source may remain.
 5. Run a clean `uv sync --frozen` before committing.
 
 Never move a published release tag. Use a new package/workspace version.

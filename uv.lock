@@ -939,8 +939,8 @@ wheels = [
 
 [[package]]
 name = "portfolio-core"
-version = "0.2.0"
-source = { git = "https://github.com/T1m-V/portfolio-core.git?rev=v0.2.0#9f30e81cf565750c99c339cd5cb6dc6415307567" }
+version = "0.3.0"
+source = { git = "https://github.com/T1m-V/portfolio-core.git?rev=v0.3.0#b8bf66e51b0b398253554d85c08d19776c9f64ce" }
 dependencies = [
     { name = "pandas" },
     { name = "platformdirs" },
@@ -949,8 +949,8 @@ dependencies = [
 
 [[package]]
 name = "portfolio-crypto-data"
-version = "0.2.0"
-source = { git = "https://github.com/T1m-V/portfolio-crypto-data.git?rev=v0.2.0#8db95ae0d921aa87de92e8509e61876548c175be" }
+version = "0.3.0"
+source = { git = "https://github.com/T1m-V/portfolio-crypto-data.git?rev=v0.3.0#b7e619bab6315b7b304d47b1c3df933f54856f0e" }
 dependencies = [
     { name = "pandas" },
     { name = "portfolio-core" },
@@ -961,7 +961,7 @@ dependencies = [
 
 [[package]]
 name = "portfolio-data-workspace"
-version = "0.2.0"
+version = "0.3.0"
 source = { virtual = "." }
 dependencies = [
     { name = "portfolio-crypto-data" },
@@ -970,14 +970,14 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "portfolio-crypto-data", git = "https://github.com/T1m-V/portfolio-crypto-data.git?rev=v0.2.0" },
-    { name = "portfolio-market-data", git = "https://github.com/T1m-V/portfolio-market-data.git?rev=v0.2.1" },
+    { name = "portfolio-crypto-data", git = "https://github.com/T1m-V/portfolio-crypto-data.git?rev=v0.3.0" },
+    { name = "portfolio-market-data", git = "https://github.com/T1m-V/portfolio-market-data.git?rev=v0.3.0" },
 ]
 
 [[package]]
 name = "portfolio-market-data"
-version = "0.2.1"
-source = { git = "https://github.com/T1m-V/portfolio-market-data.git?rev=v0.2.1#1883c12a8d3d7c023c674e02c0f8fda12f229361" }
+version = "0.3.0"
+source = { git = "https://github.com/T1m-V/portfolio-market-data.git?rev=v0.3.0#37873b26c3e9a41b0bb90d8361ef76f81fc6c9a2" }
 dependencies = [
     { name = "lxml" },
     { name = "mstarpy" },

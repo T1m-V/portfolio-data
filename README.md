@@ -7,7 +7,8 @@ runtime output, credentials, and chain configuration stay local through `.gitign
 ## Setup
 
 This is the end-user/release environment. Its lockfile resolves immutable package tags and must
-never contain editable paths to source repositories:
+never contain editable paths to source repositories. Regenerate it with `uv lock --no-sources`
+after changing a package tag:
 
 ```powershell
 uv sync --frozen
